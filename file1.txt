@@ -1,0 +1,10 @@
+  305  git clone https://github.com/munireddy/indexhtml.git
+  314  man git
+  315  mkdir gitLocal
+  316  cd gitLocal/
+  317  git init
+  318  ls -la /home/vidya/Devops/gitLocal
+  320  git clone https://github.com:srimul/Scripts.git
+  321  git clone https://github.com/srimul/Scripts.git
+  325  history | grep git
+  326  history | grep git > file1.txt
