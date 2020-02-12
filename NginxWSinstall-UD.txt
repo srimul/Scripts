@@ -1,11 +1,5 @@
-User Data to install Nginx webserver
-
-Monday, February 10, 2020
-5:11 PM
-
-Create EC2 instance and install Nginx Web server through User Data and start the Web server and access the web page from your browser  - done
-
 #!/bin/bash
+#User Data to install Nginx webserver
 touch /tmp/file0
 sudo apt update -y
 touch /tmp/file1
@@ -16,16 +10,3 @@ git clone https://github.com/munireddy/indexhtml.git
 cp indexhtml/index.html //var/www/html/
 touch /tmp/file2.txt
 cp indexhtml/index.html /tmp/index.html
-
-
-
-OUTPUT:
-Lynx verification:
-
-ubuntu@ip-172-31-38-19:/var/www/html$ lynx index.html
-
-
-
-From browser using public IP:
-
-
