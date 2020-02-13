@@ -37,3 +37,26 @@
   371  git status
   372  git commit -m "edited file1"
   373  git push
+  377  git status
+  380  cd gitLocal/
+  381  git branch
+  382  git branch -r
+  384  git branch -r
+  387  git push --set-upstream origin brScripts
+  388  git clone -b brScripts https://github.com/srimul/Scripts.git
+  398  git ststus
+  399  git status
+  400  git checkout -b brScripts 
+  401  git branch 
+  402  git status
+  407  git status
+  408  git remote -r
+  409  git branch -r
+  410  git branch
+  411  git add file4.txt
+  412  git status
+  413  git commit -m "File4 addded to branch brScripts"
+  414  git reset
+  415  git status
+  416  git add file4.txt 
+  417  git status
