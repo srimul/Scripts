@@ -1,0 +1,39 @@
+  305  git clone https://github.com/munireddy/indexhtml.git
+  314  man git
+  315  mkdir gitLocal
+  316  cd gitLocal/
+  317  git init
+  318  ls -la /home/vidya/Devops/gitLocal
+  320  git clone https://github.com:srimul/Scripts.git
+  321  git clone https://github.com/srimul/Scripts.git
+  327  git add file1.txt 
+  328  git status 
+  330  git log
+  331  cd .git/
+  339  git status
+  340  git add file2.txt 
+  341  git diff 
+  342  git diff file2.txt
+  343  git status
+  346  git commit -m "Two git exfiles are added"
+  347  git status
+  348  git push
+  349  git config user.email "prasad.mul@gmail.com"
+  350  git config user.name "srimul"
+  351  git status
+  352  git commit -m "Two git exfiles are added"
+  353  git push
+  355  git status
+  356  git diff file2.txt
+  357  git diff 
+  358  git diff file
+  361  git status
+  362  git diff file3 file3.txt
+  364  git add file3.txt 
+  366  git commit -m "git exfile3 added"
+  367  git pull
+  369  git diff
+  370  git add file1.txt 
+  371  git status
+  372  git commit -m "edited file1"
+  373  git push
