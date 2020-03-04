@@ -1,0 +1,13 @@
+#!/bin/bash
+echo "This is a sample file " > /tmp/testFile
+echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC1a2Vx1I8y0RJTUuzfC3pUnH5H2G2s+6lksvU1F9ANBLPfmcvlam4E9R98HDV3WIul+LcSuh6rWddhnorMnrszFibRgFHODLS7/CUEbXuNOVstcjbCdeDRThlVZ2nXbriN
+3lDZz36cJdLATXQ78fRn+vBrIaISsrpY31xQcnfPotiScLAf9291SGasU1VzhfyryvQqLycUxAjzXrK14dSjyLYCA9UXRSdwYe4kq1LOmLlo5IouJDSJJkQCB3+IiaLngq5wTvD1xSuFpvQ1q3u7/73jwn+LIh0+to600EWB
+5Nu1qJQI5f4vqLkCUfc70rbAYdfoYxdtRpiKkMKd5u6H ubuntu@ip-172-31-35-79 srimul" >> /home/ubuntu/.ssh/authorized_keys
+sudo apt update  -y
+sudo apt-get install python -y
+sudo apt-get install python-apt -y
+sudo apt update  -y
+sudo apt-get install -y apache2
+sudo systemctl start apache2
+sudo systemctl enable apache2
+echo "<h1>Deployed Apache Web Server from  Terraform. Modifed to test Resource Update</h1>" | sudo tee /var/www/html/index.html
